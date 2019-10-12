@@ -1,6 +1,16 @@
-# 🥳 Placeholder
+# 🧿 Bookmarks Sync
 
-Description.
+We create Bookmarks Sync to solve the fragmentation problem that exists with browser. Each one have their own bookmark sync solution that does not work across browsers and 3th party solutions keep your data somewhere, some how. We think that bookmark syncing should not be a way to lock your down to a particular browser or 3th party provider. 
+
+This stack will create everything you need on AWS to store your bookmarks in a safe way that is easy to access, this way you have full control of your bookmarks. 
+
+This free products comes with a browser extension.
+
+# Manual work
+
+Once the stack is deployed you'll have to create a programmatic IAM user, attach it to the IAM group that was created with this stack, and then copy and paste the credentials in to the extension. 
+
+The IAM Group tase the bare minimum necessary to make the synchronization work.
 
 # The End
 
